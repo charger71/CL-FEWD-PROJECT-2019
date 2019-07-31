@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: 'Open Sans';
+	font-size: 13px;
+	color: #333;
+	background-color: #FFF;
+	line-height: 1.735;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+	text-transform: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 600;
+	line-height: 1.2;
+	font-family: 'Open Sans';
+	font-size: 1em;
+}
+
+h1 {
+	font-size: 3.25em;
+	font-weight: 600;
+	margin-top: 0.53em;
+	margin-bottom: 0.53em;
+	text-transform: uppercase;
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: -0.05em;
+}
+
+h2 {
+	font-size: 2.75em;
+	font-weight: 600;
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+	font-family: 'Open Sans';
+	font-style: normal;
+	line-height: 1.2;
+	text-decoration: none;
+	text-transform: none;
+}
+
+h3 {
+	font-size: 2.25em;
+	font-weight: 600;
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+	font-style: normal;
+	line-height: 1.4;
+	text-align: left;
+	text-decoration: none;
+	text-transform: none;
+}
+
+h4 {
+	font-size: 1.25em;
+	font-weight: 600;
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
+	font-family: 'Open Sans';
+	font-style: normal;
+	line-height: 1.6;
+	text-align: left;
+	text-decoration: none;
+	text-transform: none;
+}
+
+h5 {
+	font-size: 1.06em;
+	font-weight: 600;
+	margin-top: 0.94em;
+	margin-bottom: 0.94em;
+	font-style: normal;
+	line-height: 1.4;
+	text-align: left;
+	text-decoration: none;
+	text-transform: none;
+}
+
+h6 {
+	font-size: 1em;
+	font-weight: 600;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-family: 'Open Sans';
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: 0.05em;
+	text-align: left;
+	text-decoration: none;
+	text-transform: none;
+}
+
+p {
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+	font-family: 'Open Sans';
+	font-size: 1em;
+	font-weight: 300;
+	font-style: normal;
+	line-height: 1.8;
+	text-align: left;
+	text-decoration: none;
+	text-transform: none;
+}
+
+strong {
+	font-weight: 600;
+	font-style: normal;
+}
+
+em {
+	font-style: italic;
+}
+
+a {
+	color: #790cf4;
+}
+
+ul,ol {
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+	padding-left: 1.1em;
+}
+
+li {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+  @media (min-width: 768px) {
+    body {
+      font-family: 'Open Sans';
+      font-size: 16px;
+    }
+  }
