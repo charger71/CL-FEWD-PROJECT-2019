@@ -681,10 +681,13 @@ nav ul.is-active {
 .cta-form {
 	padding-bottom: 1.25444em;
 	text-align: left;
+	max-width: 600px;
+	margin: 0 auto;
 }
 
 .cta-form label {
 	font-size: 0.8em;
+	font-weight: bold;
 }
 
 .cta-form input[type=email] {
