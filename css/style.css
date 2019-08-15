@@ -408,6 +408,7 @@ input[type=button] {
 	font-size: 17px;
 	padding: 16px 31px;
 	text-decoration: none;
+	text-transform: uppercase;
 	width: 100%;
 	max-width: 300px;
 	text-align: center;
@@ -856,7 +857,7 @@ footer address {
 
 @media (min-width: 768px) {
 	body {
-		font-family: 'Open Sans';
+		font-family: 'Open Sans', sans-serif;
 		font-size: 16px;
 	}
 	.row {
