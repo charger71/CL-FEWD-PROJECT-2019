@@ -737,10 +737,14 @@ nav ul.is-active {
 /* Footer */
 
 footer {
-	font-size: 0.9em;
+	font-size: 0.8em;
 	background: #E72465;
 	color: #FFFFFF;
 	padding: 3em;
+}
+
+footer h4 {
+	text-transform: uppercase;
 }
 
 footer address {
@@ -761,12 +765,13 @@ footer address {
 }
 
 .sitemap-links li {
-	margin-bottom: 0.5em;
+	margin-bottom: 0.25em;
 }
 
 .sitemap-links a:link,
 .sitemap-links a:visited {
 	color: #FFFFFF;
+	text-transform: uppercase;
 	display: block;
 }
 
