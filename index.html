@@ -1,104 +1,307 @@
 <!doctype html>
 
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
+  <!--
+    Set the character encoding for this document, so that
+    all characters within the UTF-8 space (such as emoji)
+    are rendered correctly.
+  -->
+  <meta charset="utf-8" />
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="CodeLou.app">
-  <meta name="author" content="Brian Luerman, Don Hansen and CodeLouisville contributors">
-
+  <!-- Set the document's title -->
   <title>Page Title</title>
-  
-  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Set the viewport element to give the browser instructions on how to control the page's dimensions and scaling.-->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="description" content="CodeLou.app" />
+  <meta name="author" content="Brian Luerman, Don Hansen and CodeLouisville contributors" />
+
+  <!-- Set the base URL for all relative URLs within the document
+  <base href="https://example.com/index.html"> -->
+
+  <!-- Link to an external CSS file -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Used for adding in-document CSS. This can be utilized to make the page load faster (above the fold) -->
+  <style>
+
+    /* ... */
+
+  </style>
+
 
 </head>
 
-<body>
+<body class="home">
 
-  <header>
+<header class="nav-header" role="banner">
+
+  <a href="#nav" id="main-nav" class="skiptonav">Skip To Keyboard Navigation</a>
+
+  <div class="container row">
+
+  <div class="nav-logo column">
+
     <a href="/" title="Go to home page">
-
-      <img src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo1.jpg" alt="Site logo">
-
+      <img src="img/codelou-app-logo.png" alt="CodeLou.App logo" role="img" />
     </a>
 
-    <nav>
+  </div>
 
-      <ul>
-        <li><a href="#">Primary nav</a></li>
-        <li><a href="#">Primary nav</a></li>
-        <li><a href="#">Primary nav</a></li>
-        <li><a href="#">Primary nav</a></li>
-      </ul>
+  <nav role="navigation" class="column">
 
-    </nav>
+    <button id="toggle" aria-expanded="false" aria-controls="menu">Menu <span class="burger-icon">☰</span></button>
 
-  </header>
+    <ul id="menu">
 
-<div class="hero">
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Download</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Contact Us</a></li>
 
-  <h1>It’s time to start investing in yourself</h1>
-
-  <p class="hero-txt">CodeLou.app is a simple, fast and interactive app, to learn any programming language. Our learnfing platform is available in Android, iOS and web with over 6 Million+ downloads worldwide.</p>
-
-  <button>LEARN MORE</button>
-
-  <img src="https://via.placeholder.com/600x1100">
-
-</div>
-
-<div class="">
-
-  <main>
-
-    <article>
-
-      <h1>Main article heading</h1>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae sunt igitur communia vobis cum antiquis, iis sic utamur quasi concessis; Nihil acciderat ei, quod nollet, nisi quod anulum, quo delectabatur, in mari abiecerat. Unum est sine dolore esse, alterum cum voluptate. Laboro autem non sine causa; Theophrasti igitur, inquit, tibi liber ille placet de beata vita? Nihil opus est exemplis hoc facere longius. Duo Reges constructio interrete. Graecum enim hunc versum nostis omnes Suavis laborum est praeteritorum memoria. Haec et tu ita posuisti, et verba vestra sunt.</p>
-
-      <h2>Article secondary heading</h2>
-
-      <p>Nos commodius agimus. A mene tu? Tantum dico, magis fuisse vestrum agere Epicuri diem natalem, quam illius testamento cavere ut ageretur. Tenesne igitur, inquam, Hieronymus Rhodius quid dicat esse summum bonum, quo putet omnia referri oportere? Nihilo beatiorem esse Metellum quam Regulum. Sed quanta sit alias, nunc tantum possitne esse tanta. Philosophi autem in suis lectulis plerumque moriuntur. Esse enim, nisi eris, non potes.</p>
-      <p>Sunt enim quasi prima elementa naturae, quibus ubertas orationis adhiberi vix potest, nec equidem eam cogito consectari. Id Sextilius factum negabat. Quorum sine causa fieri nihil putandum est. Quae autem natura suae primae institutionis oblita est?</p>
-
-    </article>
-
-  </main>
-
-</div>
-
-  <aside>
-
-    <section>
-
-      <article>
-
-        <h3><a href="#">Related article</a></h3>
-        <h4><a href="#">Related article</a></h4>
-        <h5><a href="#">Related article</a></h5>
-        <h6><a href="#">Related article</a></h6>
-        <p>Article description</p>
-
-      </article>
-
-    </section>
-
-  </aside>
-
-  <footer>
-    <ul>
-      <li><a href="#">Footer link</a></li>
-      <li><a href="#">Footer link</a></li>
-      <li><a href="#">Footer link</a></li>
-      <li><a href="#">Footer link</a></li>
     </ul>
-  </footer>
+
+  </nav>
+
+  </div>
+
+</header>
+
+<!-- Hero Section -->
+
+<main>
+
+<section class="hero">
+
+  <div class="container row">
+
+    <div class="hero-copy column">
+
+    <h1>It’s time to start investing in yourself</h1>
+
+    <p class="hero-txt">CodeLou.app is a simple, fast and interactive app, to learn any programming language. Our learning platform is available in Android, iOS and web with over 6 Million+ downloads worldwide.</p>
+
+    <a href="#" class="btn">Learn More</a>
+
+    </div>
+
+    <div class="hero-img column">
+
+    <img src="img/app-mockup.png" alt="Image of application on phone" />
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- Download Section -->
+
+<section class="download">
+
+  <div class="container">
+
+    <header>
+
+      <h2>Learn how to build websites, mobile apps and more</h2>
+
+      <p>One of the best ways to start coding is by building websites. Whether you want to tweak your business’s site, hone your web development skills, or learn to collaborate with developers, we’ll help you get there.</p>
+
+    </header>
+
+    <div class="badges">
+
+      <a href=""><img src="img/app-store-badge.png" alt="Download on the App Store badge" /></a>
+
+      <a href=""><img src="img/play-store-badge.png" alt="Get it on Google Play badge" /></a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- Investing Section -->
+
+<section class="investing">
+
+  <div class="container">
+
+    <header>
+
+      <h3>It’s time to start investing in yourself</h3>
+
+      <p>Learning to code has never been so much fun before! We have made the learning experience fun and interactive. You will enjoy it like a game while learning and upgrading your skills.</p>
+
+    </header>
+
+    <div class="features">
+
+      <div class="features-item">
+
+        <div class="feature-img">
+
+          <img src="img/feature-learn-photo.png" alt="Person working on laptop" />
+
+        </div>
+
+        <div class="feature-txt">
+
+          <h4>Learn by Doing</h4>
+
+          <p>From building websites to analyzing data, the choice is yours. Not sure where to start? We’ll point you in the right direction.</p>
+
+        </div>
+
+      </div>
+
+      <div class="features-item">
+
+        <div class="feature-img">
+
+          <img src="img/feature-practice-photo.png" alt="Photo of computer screens with code" />
+
+        </div>
+
+        <div class="feature-txt">
+
+          <h4>Put your learning into practice</h4>
+
+          <p>No matter your experience level, you’ll be writing real, working code in minutes.</p>
+
+        </div>
+
+      </div>
+
+      <div class="features-item">
+
+        <div class="feature-img">
+
+          <img src="img/feature-dreamjob-photo.png" alt="Photo of people working" />
+
+        </div>
+
+        <div class="feature-txt">
+
+          <h4>Land your dream job</h4>
+
+          <p>Coding skills have never been more in-demand. Learn everything you need to take your career to the next level.</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- Call to Action Section-->
+
+<section class="call-to-action">
+
+  <div class="container">
+
+    <header>
+
+      <h3>Wanna start coding?</h3>
+
+      <p>Learn the technical skills you need for the job you want. As leaders in online education and learning to code, we’ve taught hundreds in the Louisville community.</p>
+
+    </header>
+
+    <form action="#" class="cta-form">
+
+      <label for="email">Email: (required)
+      <input type="email" name="email" id="email" placeholder="joe@example.com" required />
+      </label>
+
+      <input id="terms" type="checkbox" name="terms" value="terms" required /> <label for="terms"> I have read the Privacy Policy and agree to the Terms of Service.</label>
+
+      <input type="submit" name="submit" value="Subscribe" class="btn btn-center" />
+
+    </form>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+  <div class="container ftr-grid">
+
+      <div class="">
+
+      <h4>Contact Us</h4>
+
+      <address>
+      1234 Main St.<br />
+      Louisville, KY 40213<br />
+      E: info@codelouisville.org<br />
+      P: 502-555-5555
+      </address>
+
+      </div>
+
+      <div class="">
+
+      <h4>Sitemap</h4>
+
+        <ul class="sitemap-links" role="navigation">
+
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Download</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Contact Us</a></li>
+
+        </ul>
+
+      </div>
+
+      <div class="">
+
+      <h4>Follow Us</h4>
+
+        <ul class="social-links">
+
+          <li><a href="#"><img src="img/ico-linkedin.png" alt="Social icon to linkedin.com" role="img" /></a></li>
+          <li><a href="#"><img src="img/ico-instagram.png" alt="Social icon to instagram.com" role="img" /></a></li>
+          <li><a href="#"><img src="img/ico-twitter.png" alt="Social icon to twitter.com" role="img" /></a></li>
+          <li><a href="#"><img src="img/ico-facebook.png" alt="Social icon to facebook.com" role="img" /></a></li>
+          <li><a href="#"><img src="img/ico-youtube.png" alt="Social icon to youtube.com" role="img" /></a></li>
+
+        </ul>
+
+      </div>
+
+</div>
+
+</footer>
+
+<div class="copyright">
+
+  <div class="container row">
+
+    <span>&copy; Copyright 2019 Code Louisville</span>
+
+    <span><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></span>
+
+  </div>
+
+</div>
+
 
 <!-- JavaScript Begin -->
 
 <script src="js/app.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 
 <!-- JavaScript End -->
 
