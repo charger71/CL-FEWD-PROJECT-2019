@@ -255,7 +255,7 @@ fieldset {
 /* Basic Text Styles */
 
 body {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 	color: #333;
 	background-color: #FFF;
