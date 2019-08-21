@@ -517,8 +517,8 @@ footer address {
 
 .ftr-grid {
 	display: grid;
-	grid-template-rows: auto auto auto;
-	column-gap: 10px;
+	grid-template-rows: auto;
+	grid-row-gap: 1em;
 }
 
 .sitemap-links {
@@ -683,7 +683,7 @@ footer address {
 	}
 	.ftr-grid {
 		display: grid;
-		grid-template-columns: auto auto auto;
+		grid-template-columns: 1fr 1fr 1fr;
 		column-gap: 1em;
 	}
 	.copyright {
