@@ -34,7 +34,7 @@ h5,
 h6 {
 	font-weight: 600;
 	line-height: 1.2;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
 }
 
@@ -54,7 +54,7 @@ h2 {
 	font-weight: 600;
 	margin-top: 0.4em;
 	margin-bottom: 0.4em;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	line-height: 1.2;
 	text-decoration: none;
@@ -78,7 +78,7 @@ h4 {
 	font-weight: 600;
 	margin-top: 0.67em;
 	margin-bottom: 0.67em;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	line-height: 1.6;
 	text-align: left;
@@ -103,7 +103,7 @@ h6 {
 	font-weight: 600;
 	margin-top: 1em;
 	margin-bottom: 1em;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	line-height: 1.2;
 	letter-spacing: 0.05em;
@@ -115,7 +115,7 @@ h6 {
 p {
 	margin-top: 1em;
 	margin-bottom: 1.5em;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
 	font-weight: 300;
 	font-style: normal;
@@ -155,11 +155,11 @@ li {
 
 .btn,
 input[type=button] {
-	background-color: #44c767;
+	background-color: #32A952;
 	-moz-border-radius: 12px;
 	-webkit-border-radius: 12px;
 	border-radius: 12px;
-	border: 1px solid #18ab29;
+	border: 1px solid #2FA74D;
 	display: inline-block;
 	cursor: pointer;
 	color: #ffffff;
@@ -176,7 +176,7 @@ input[type=button] {
 
 .btn:hover,
 input[type=button] {
-	background-color: #5cbf2a;
+	background-color: #288641;
 }
 
 .btn:active,
@@ -291,6 +291,7 @@ button {
 	color: #fff;
 	display: none;
 	text-transform: uppercase;
+	text-shadow: #e0e0e0 1px 1px 0;
 }
 
 button:focus,
@@ -369,13 +370,13 @@ nav ul.is-active {
 
 /* Download Section */
 
-.download {
+.downloads {
 	background: #e8e8e8;
 	color: #171717;
 	padding: 3em;
 }
 
-.download h2 {
+.downloads h2 {
 	text-align: center;
 }
 
@@ -386,19 +387,19 @@ nav ul.is-active {
 }
 
 
-/* Investing Section */
+/* Features Section */
 
-.investing {
+.features {
 	background: #FFFFFF;
 	color: #171717;
 	padding: 3em;
 }
 
-.investing h3 {
+.features h3 {
 	text-align: center;
 }
 
-.features {}
+.features-items {}
 
 .features-item {
 	display: flex;
@@ -502,7 +503,7 @@ nav ul.is-active {
 
 footer {
 	font-size: 0.8em;
-	background: #E72465;
+	background: #AE1347;
 	color: #FFFFFF;
 	padding: 3em;
 }
@@ -563,7 +564,7 @@ footer address {
 }
 
 .copyright {
-	background: #AB1957;
+	background: #93103C;
 	color: #FFFFFF;
 	text-align: center;
 	padding: 1em 0;
@@ -615,7 +616,7 @@ footer address {
 
 /* Desktop Media Queries */
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
 	body {
 		font-family: 'Open Sans', sans-serif;
 		font-size: 16px;
